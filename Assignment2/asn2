@@ -1,0 +1,9 @@
+#!/bin/sh
+# Name: Riley Emma Gavigan
+# Student #: 251150776
+# Student ID: rgavigan
+# CS 3340B - Assignment 2
+# Shell Script to Run asn2
+
+javac uandf.java BinaryImageAlgo.java
+java BinaryImageAlgo

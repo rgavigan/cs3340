@@ -1,0 +1,362 @@
+Script started on 2023-02-20 18:26:22-05:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="80" LINES="24"]
+0;rgavigan@compute:~/cs3340/asn2[rgavigan@compute asn2]$ whoami
+rgavigan
+0;rgavigan@compute:~/cs3340/asn2[rgavigan@compute asn2]$ date
+Mon 20 Feb 2023 06:26:27 PM EST
+0;rgavigan@compute:~/cs3340/asn2[rgavigan@compute asn2]$ pwd
+/home/rgavigan/cs3340/asn2
+0;rgavigan@compute:~/cs3340/asn2[rgavigan@compute asn2]$ asn2 < infile
+bash: asn2: command not found
+0;rgavigan@compute:~/cs3340/asn2[rgavigan@compute asn2]$ ./asn2 < infile
+--------PART 1--------
+
+000000000111100000000000000000000000000000000000000000000000000000000110
+111111111000000000000000000000000000000000000000000000000000000000001110
+111111111000000000000000000000000000000000000000000000000000000000001110
+111111110000000000000000000000000000000000000000000000000000000000001110
+111111100000000000000000000000000000000000000000000000000000000000011110
+111111000110000000000000000000000000000000000000000000000000000000011110
+111110001100000000000000000000000000000000000000000000000000000000011110
+011100011000000000000000000000000000000000000000000000000000000000111110
+011000110000000000000000001000000000000000000000000000000000000100111110
+011001100000000000101111000000000000000000000000000000000000011001111110
+011111000010000000001111000001111111100000000000000000000001110001111110
+011111000100000000011111101111111111000000000000000000001111100011111110
+001110000000000000101111111111111110000000000000000000111110000111111110
+001100010000000101111111111111111100000000000000000000111000001111111110
+011100110000000111111111111111111000000000000000000110000000011111111110
+010001110100111111111111111111100000000000000000011100000000111111111110
+010011011101111111111111111110100000000000000000111000000001111111111110
+010010011001111111111111111110100000000000000000111100000011111111111110
+011110110111111111111111111111000000000000000000011110001111111111111100
+011111001111111111111111111111000000000000000000011110001111111111111100
+111111011111111111111111111100000000000000000000011110001111111111111000
+111111111111111111111111110000000000000000000000001111001111111111111000
+111001111111111111111111100000000000000000000000001111001111111111110000
+111001111111111111111011000000000000000000000000001111001111111111110000
+100011111111111111111110000000000000000000000000001111101111111111110000
+100011111111111111111110000000000000000000000000001111101111111111100000
+001111111111111111111010000000010000000000000000001111101111111111100000
+001111111111111111111100000000111110000000000000001111101111111111100000
+011111111111111111110000000000000111100000000000111111100111111111000000
+111111111111111111110000000111111111110000000011111111100111111111000000
+111111111111111111100000001111111111010000000111111111110111111111000000
+111111111111111111000000011111110111110000001111111111110111111110000000
+111111111111111111000000011111110011111000011111011111110111111110000000
+111111111111111110000000111111100001111000010110011111110111111110000000
+111111111111111100000001000111000000111000000000111111110111111100000000
+111110011111111110000010000001100000111000000011111111110111111100000000
+111111011111111100001110000000000000001100000001111111110111111100000000
+111111011111111000011110000000000000001100000000111111110111111100000000
+111110111111110000011110000000000000001100000000111111110011111000000000
+111111101111111000111110000000000000000100000000111111110011111000000000
+111111100111100001111110000000000000000100000000111111110011111000000000
+111111111111110001111110000000000000001100000000011111110011110000000000
+111111101011000011111110000000000000001100000000111111110011110000000000
+111111101111100011111111000000000000001100000000011111110011110000000000
+111110111110000111111111000000000001100100000000111111110011100000000000
+111111111100001111111111000000000001100110000000111111111001100000000000
+111110111100011111111111000000000001111111000000111111111001100000000000
+111111111100011111111111000000000000011110000001111111111001100000000000
+101111100100111111111111100000000000000000000001111111111001000000000000
+111110000101111111111111000000000000000000000001111111111001000000000000
+111110001001111111111111100000000000000000000011111111111001000000000000
+011000011011111111111111100000000000000000000011111111111000000000000000
+110000010111111111111111110000111001111101110111111111111100000000000000
+110000100111111111111111110000111111111101100111111111111100000000000000
+100001001111111111111111111000011111000000001111111111111100000000000000
+100000011111111111111111111000000111100000001111111111111100000000000000
+000000111111111111111111111000000011111100011111111111111100000000000000
+110001111111111111111111111100000000000000011111111111111100000000000000
+110001111111111111111111111100000000000000111111111111111100000000000000
+111011111111111111111111111110000000000000111111111111111100000000000000
+011111111111111111111111111111000000000000111111111111111100000000000000
+000011111111111111111111111111100000000001111111111111111100000000000000
+001001111111111111111111111110000000000000111111111111111100110000000000
+101100111111111111111111111100000000000000000111111111111100001111100000
+111100011111111111111111111111000000000000000011111111111100000011111110
+110001011111111111111111111110000000000000000000111111111100000000111110
+110001101111111111111111111110000000000000000000011111111100000000001110
+100001010111111111111111111110000000000000000000000111111000000000000000
+110001011111111111111111111100000000000000000000000111111000000000000000
+110001101111111111111111111000000000000000000000000011111000000000000000
+111000110111111111111111111000000000000000000000000001111000000000000000
+111000110111111111111111111100000000000000000000000001111000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+
+
+--------PART 2--------
+
+         bbbb                                                        cc 
+iiiiiiiii                                                           ccc 
+iiiiiiiii                                                           ccc 
+iiiiiiii                                                            ccc 
+iiiiiii                                                            cccc 
+iiiiii   ii                                                        cccc 
+iiiii   ii                                                         cccc 
+ iii   ii                                                         ccccc 
+ ii   ii                  d                                    e  ccccc 
+ ii  ii           f iiii                                     gg  cccccc 
+ iiiii    h         iiii     iiiiiiii                      ggg   cccccc 
+ iiiii   j         iiiiii iiiiiiiiii                    ggggg   ccccccc 
+  iii             i iiiiiiiiiiiiiii                   ggggg    cccccccc 
+  ii   i       i iiiiiiiiiiiiiiiii                    ggg     ccccccccc 
+ iii  ii       iiiiiiiiiiiiiiiiii                  kk        cccccccccc 
+ i   iii i  iiiiiiiiiiiiiiiiiii                  kkk        ccccccccccc 
+ i  ii iii iiiiiiiiiiiiiiiiii i                 kkk        cccccccccccc 
+ i  i  ii  iiiiiiiiiiiiiiiiii i                 kkkk      ccccccccccccc 
+ iiii ii iiiiiiiiiiiiiiiiiiiii                   kkkk   cccccccccccccc  
+ iiiii  iiiiiiiiiiiiiiiiiiiiii                   kkkk   cccccccccccccc  
+iiiiii iiiiiiiiiiiiiiiiiiiii                     kkkk   ccccccccccccc   
+iiiiiiiiiiiiiiiiiiiiiiiiii                        kkkk  ccccccccccccc   
+iii  iiiiiiiiiiiiiiiiiiii                         kkkk  cccccccccccc    
+iii  iiiiiiiiiiiiiiii ii                          kkkk  cccccccccccc    
+i   iiiiiiiiiiiiiiiiiii                           kkkkk cccccccccccc    
+i   iiiiiiiiiiiiiiiiiii                           kkkkk ccccccccccc     
+  iiiiiiiiiiiiiiiiiii i        l                  kkkkk ccccccccccc     
+  iiiiiiiiiiiiiiiiiiii        lllll               kkkkk ccccccccccc     
+ iiiiiiiiiiiiiiiiiii             llll           kkkkkkk  ccccccccc      
+iiiiiiiiiiiiiiiiiiii       lllllllllll        kkkkkkkkk  ccccccccc      
+iiiiiiiiiiiiiiiiiii       llllllllll l       kkkkkkkkkkk ccccccccc      
+iiiiiiiiiiiiiiiiii       lllllll lllll      kkkkkkkkkkkk cccccccc       
+iiiiiiiiiiiiiiiiii       lllllll  lllll    kkkkk kkkkkkk cccccccc       
+iiiiiiiiiiiiiiiii       lllllll    llll    k kk  kkkkkkk cccccccc       
+iiiiiiiiiiiiiiii       m   lll      lll         kkkkkkkk ccccccc        
+iiiii  iiiiiiiiii     n      ll     lll       kkkkkkkkkk ccccccc        
+iiiiii iiiiiiiii    nnn               ll       kkkkkkkkk ccccccc        
+iiiiii iiiiiiii    nnnn               ll        kkkkkkkk ccccccc        
+iiiii iiiiiiii     nnnn               ll        kkkkkkkk  ccccc         
+iiiiiii iiiiiii   nnnnn                l        kkkkkkkk  ccccc         
+iiiiiii  iiii    nnnnnn                l        kkkkkkkk  ccccc         
+iiiiiiiiiiiiii   nnnnnn               ll         kkkkkkk  cccc          
+iiiiiii i ii    nnnnnnn               ll        kkkkkkkk  cccc          
+iiiiiii iiiii   nnnnnnnn              ll         kkkkkkk  cccc          
+iiiii iiiii    nnnnnnnnn           ll  l        kkkkkkkk  ccc           
+iiiiiiiiii    nnnnnnnnnn           ll  ll       kkkkkkkkk  cc           
+iiiii iiii   nnnnnnnnnnn           lllllll      kkkkkkkkk  cc           
+iiiiiiiiii   nnnnnnnnnnn             llll      kkkkkkkkkk  cc           
+i iiiii  i  nnnnnnnnnnnnn                      kkkkkkkkkk  c            
+iiiii    i nnnnnnnnnnnnn                       kkkkkkkkkk  c            
+iiiii   o  nnnnnnnnnnnnnn                     kkkkkkkkkkk  c            
+ ii    oo nnnnnnnnnnnnnnn                     kkkkkkkkkkk               
+ii     o nnnnnnnnnnnnnnnnn    ppp  ppppp qqq kkkkkkkkkkkkk              
+ii    r  nnnnnnnnnnnnnnnnn    pppppppppp qq  kkkkkkkkkkkkk              
+i    s  nnnnnnnnnnnnnnnnnnn    ppppp        kkkkkkkkkkkkkk              
+i      nnnnnnnnnnnnnnnnnnnn      pppp       kkkkkkkkkkkkkk              
+      nnnnnnnnnnnnnnnnnnnnn       pppppp   kkkkkkkkkkkkkkk              
+nn   nnnnnnnnnnnnnnnnnnnnnnn               kkkkkkkkkkkkkkk              
+nn   nnnnnnnnnnnnnnnnnnnnnnn              kkkkkkkkkkkkkkkk              
+nnn nnnnnnnnnnnnnnnnnnnnnnnnn             kkkkkkkkkkkkkkkk              
+ nnnnnnnnnnnnnnnnnnnnnnnnnnnnn            kkkkkkkkkkkkkkkk              
+    nnnnnnnnnnnnnnnnnnnnnnnnnnn          kkkkkkkkkkkkkkkkk              
+  t  nnnnnnnnnnnnnnnnnnnnnnnn             kkkkkkkkkkkkkkkk  uu          
+t tt  nnnnnnnnnnnnnnnnnnnnnn                 kkkkkkkkkkkkk    vvvvv     
+tttt   nnnnnnnnnnnnnnnnnnnnnnn                kkkkkkkkkkkk      vvvvvvv 
+tt   w nnnnnnnnnnnnnnnnnnnnnn                   kkkkkkkkkk        vvvvv 
+tt   ww nnnnnnnnnnnnnnnnnnnnn                    kkkkkkkkk          vvv 
+t    w n nnnnnnnnnnnnnnnnnnnn                      kkkkkk               
+tt   w nnnnnnnnnnnnnnnnnnnnn                       kkkkkk               
+tt   ww nnnnnnnnnnnnnnnnnnn                         kkkkk               
+ttt   ww nnnnnnnnnnnnnnnnnn                          kkkk               
+ttt   ww nnnnnnnnnnnnnnnnnnn                         kkkk               
+                                                                        
+                                                                        
+                                                                        
+
+--------PART 3--------
+
+Label	 Size
+a	 0
+d	 1
+e	 1
+f	 1
+h	 1
+j	 1
+m	 1
+r	 1
+s	 1
+u	 2
+b	 4
+o	 4
+q	 5
+w	 11
+g	 18
+v	 20
+t	 23
+p	 33
+l	 110
+c	 356
+k	 510
+n	 578
+i	 779
+
+
+
+
+--------PART 4--------
+
+         bbbb                                                        cc 
+iiiiiiiii                                                           ccc 
+iiiiiiiii                                                           ccc 
+iiiiiiii                                                            ccc 
+iiiiiii                                                            cccc 
+iiiiii   ii                                                        cccc 
+iiiii   ii                                                         cccc 
+ iii   ii                                                         ccccc 
+ ii   ii                                                          ccccc 
+ ii  ii             iiii                                     gg  cccccc 
+ iiiii              iiii     iiiiiiii                      ggg   cccccc 
+ iiiii             iiiiii iiiiiiiiii                    ggggg   ccccccc 
+  iii             i iiiiiiiiiiiiiii                   ggggg    cccccccc 
+  ii   i       i iiiiiiiiiiiiiiiii                    ggg     ccccccccc 
+ iii  ii       iiiiiiiiiiiiiiiiii                  kk        cccccccccc 
+ i   iii i  iiiiiiiiiiiiiiiiiii                  kkk        ccccccccccc 
+ i  ii iii iiiiiiiiiiiiiiiiii i                 kkk        cccccccccccc 
+ i  i  ii  iiiiiiiiiiiiiiiiii i                 kkkk      ccccccccccccc 
+ iiii ii iiiiiiiiiiiiiiiiiiiii                   kkkk   cccccccccccccc  
+ iiiii  iiiiiiiiiiiiiiiiiiiiii                   kkkk   cccccccccccccc  
+iiiiii iiiiiiiiiiiiiiiiiiiii                     kkkk   ccccccccccccc   
+iiiiiiiiiiiiiiiiiiiiiiiiii                        kkkk  ccccccccccccc   
+iii  iiiiiiiiiiiiiiiiiiii                         kkkk  cccccccccccc    
+iii  iiiiiiiiiiiiiiii ii                          kkkk  cccccccccccc    
+i   iiiiiiiiiiiiiiiiiii                           kkkkk cccccccccccc    
+i   iiiiiiiiiiiiiiiiiii                           kkkkk ccccccccccc     
+  iiiiiiiiiiiiiiiiiii i        l                  kkkkk ccccccccccc     
+  iiiiiiiiiiiiiiiiiiii        lllll               kkkkk ccccccccccc     
+ iiiiiiiiiiiiiiiiiii             llll           kkkkkkk  ccccccccc      
+iiiiiiiiiiiiiiiiiiii       lllllllllll        kkkkkkkkk  ccccccccc      
+iiiiiiiiiiiiiiiiiii       llllllllll l       kkkkkkkkkkk ccccccccc      
+iiiiiiiiiiiiiiiiii       lllllll lllll      kkkkkkkkkkkk cccccccc       
+iiiiiiiiiiiiiiiiii       lllllll  lllll    kkkkk kkkkkkk cccccccc       
+iiiiiiiiiiiiiiiii       lllllll    llll    k kk  kkkkkkk cccccccc       
+iiiiiiiiiiiiiiii           lll      lll         kkkkkkkk ccccccc        
+iiiii  iiiiiiiiii     n      ll     lll       kkkkkkkkkk ccccccc        
+iiiiii iiiiiiiii    nnn               ll       kkkkkkkkk ccccccc        
+iiiiii iiiiiiii    nnnn               ll        kkkkkkkk ccccccc        
+iiiii iiiiiiii     nnnn               ll        kkkkkkkk  ccccc         
+iiiiiii iiiiiii   nnnnn                l        kkkkkkkk  ccccc         
+iiiiiii  iiii    nnnnnn                l        kkkkkkkk  ccccc         
+iiiiiiiiiiiiii   nnnnnn               ll         kkkkkkk  cccc          
+iiiiiii i ii    nnnnnnn               ll        kkkkkkkk  cccc          
+iiiiiii iiiii   nnnnnnnn              ll         kkkkkkk  cccc          
+iiiii iiiii    nnnnnnnnn           ll  l        kkkkkkkk  ccc           
+iiiiiiiiii    nnnnnnnnnn           ll  ll       kkkkkkkkk  cc           
+iiiii iiii   nnnnnnnnnnn           lllllll      kkkkkkkkk  cc           
+iiiiiiiiii   nnnnnnnnnnn             llll      kkkkkkkkkk  cc           
+i iiiii  i  nnnnnnnnnnnnn                      kkkkkkkkkk  c            
+iiiii    i nnnnnnnnnnnnn                       kkkkkkkkkk  c            
+iiiii   o  nnnnnnnnnnnnnn                     kkkkkkkkkkk  c            
+ ii    oo nnnnnnnnnnnnnnn                     kkkkkkkkkkk               
+ii     o nnnnnnnnnnnnnnnnn    ppp  ppppp qqq kkkkkkkkkkkkk              
+ii       nnnnnnnnnnnnnnnnn    pppppppppp qq  kkkkkkkkkkkkk              
+i       nnnnnnnnnnnnnnnnnnn    ppppp        kkkkkkkkkkkkkk              
+i      nnnnnnnnnnnnnnnnnnnn      pppp       kkkkkkkkkkkkkk              
+      nnnnnnnnnnnnnnnnnnnnn       pppppp   kkkkkkkkkkkkkkk              
+nn   nnnnnnnnnnnnnnnnnnnnnnn               kkkkkkkkkkkkkkk              
+nn   nnnnnnnnnnnnnnnnnnnnnnn              kkkkkkkkkkkkkkkk              
+nnn nnnnnnnnnnnnnnnnnnnnnnnnn             kkkkkkkkkkkkkkkk              
+ nnnnnnnnnnnnnnnnnnnnnnnnnnnnn            kkkkkkkkkkkkkkkk              
+    nnnnnnnnnnnnnnnnnnnnnnnnnnn          kkkkkkkkkkkkkkkkk              
+  t  nnnnnnnnnnnnnnnnnnnnnnnn             kkkkkkkkkkkkkkkk  uu          
+t tt  nnnnnnnnnnnnnnnnnnnnnn                 kkkkkkkkkkkkk    vvvvv     
+tttt   nnnnnnnnnnnnnnnnnnnnnnn                kkkkkkkkkkkk      vvvvvvv 
+tt   w nnnnnnnnnnnnnnnnnnnnnn                   kkkkkkkkkk        vvvvv 
+tt   ww nnnnnnnnnnnnnnnnnnnnn                    kkkkkkkkk          vvv 
+t    w n nnnnnnnnnnnnnnnnnnnn                      kkkkkk               
+tt   w nnnnnnnnnnnnnnnnnnnnn                       kkkkkk               
+tt   ww nnnnnnnnnnnnnnnnnnn                         kkkkk               
+ttt   ww nnnnnnnnnnnnnnnnnn                          kkkk               
+ttt   ww nnnnnnnnnnnnnnnnnnn                         kkkk               
+                                                                        
+                                                                        
+                                                                        
+
+
+
+
+--------PART 5--------
+
+                                                                     cc 
+iiiiiiiii                                                           ccc 
+iiiiiiiii                                                           ccc 
+iiiiiiii                                                            ccc 
+iiiiiii                                                            cccc 
+iiiiii   ii                                                        cccc 
+iiiii   ii                                                         cccc 
+ iii   ii                                                         ccccc 
+ ii   ii                                                          ccccc 
+ ii  ii             iiii                                     gg  cccccc 
+ iiiii              iiii     iiiiiiii                      ggg   cccccc 
+ iiiii             iiiiii iiiiiiiiii                    ggggg   ccccccc 
+  iii             i iiiiiiiiiiiiiii                   ggggg    cccccccc 
+  ii   i       i iiiiiiiiiiiiiiiii                    ggg     ccccccccc 
+ iii  ii       iiiiiiiiiiiiiiiiii                  kk        cccccccccc 
+ i   iii i  iiiiiiiiiiiiiiiiiii                  kkk        ccccccccccc 
+ i  ii iii iiiiiiiiiiiiiiiiii i                 kkk        cccccccccccc 
+ i  i  ii  iiiiiiiiiiiiiiiiii i                 kkkk      ccccccccccccc 
+ iiii ii iiiiiiiiiiiiiiiiiiiii                   kkkk   cccccccccccccc  
+ iiiii  iiiiiiiiiiiiiiiiiiiiii                   kkkk   cccccccccccccc  
+iiiiii iiiiiiiiiiiiiiiiiiiii                     kkkk   ccccccccccccc   
+iiiiiiiiiiiiiiiiiiiiiiiiii                        kkkk  ccccccccccccc   
+iii  iiiiiiiiiiiiiiiiiiii                         kkkk  cccccccccccc    
+iii  iiiiiiiiiiiiiiii ii                          kkkk  cccccccccccc    
+i   iiiiiiiiiiiiiiiiiii                           kkkkk cccccccccccc    
+i   iiiiiiiiiiiiiiiiiii                           kkkkk ccccccccccc     
+  iiiiiiiiiiiiiiiiiii i        l                  kkkkk ccccccccccc     
+  iiiiiiiiiiiiiiiiiiii        lllll               kkkkk ccccccccccc     
+ iiiiiiiiiiiiiiiiiii             llll           kkkkkkk  ccccccccc      
+iiiiiiiiiiiiiiiiiiii       lllllllllll        kkkkkkkkk  ccccccccc      
+iiiiiiiiiiiiiiiiiii       llllllllll l       kkkkkkkkkkk ccccccccc      
+iiiiiiiiiiiiiiiiii       lllllll lllll      kkkkkkkkkkkk cccccccc       
+iiiiiiiiiiiiiiiiii       lllllll  lllll    kkkkk kkkkkkk cccccccc       
+iiiiiiiiiiiiiiiii       lllllll    llll    k kk  kkkkkkk cccccccc       
+iiiiiiiiiiiiiiii           lll      lll         kkkkkkkk ccccccc        
+iiiii  iiiiiiiiii     n      ll     lll       kkkkkkkkkk ccccccc        
+iiiiii iiiiiiiii    nnn               ll       kkkkkkkkk ccccccc        
+iiiiii iiiiiiii    nnnn               ll        kkkkkkkk ccccccc        
+iiiii iiiiiiii     nnnn               ll        kkkkkkkk  ccccc         
+iiiiiii iiiiiii   nnnnn                l        kkkkkkkk  ccccc         
+iiiiiii  iiii    nnnnnn                l        kkkkkkkk  ccccc         
+iiiiiiiiiiiiii   nnnnnn               ll         kkkkkkk  cccc          
+iiiiiii i ii    nnnnnnn               ll        kkkkkkkk  cccc          
+iiiiiii iiiii   nnnnnnnn              ll         kkkkkkk  cccc          
+iiiii iiiii    nnnnnnnnn           ll  l        kkkkkkkk  ccc           
+iiiiiiiiii    nnnnnnnnnn           ll  ll       kkkkkkkkk  cc           
+iiiii iiii   nnnnnnnnnnn           lllllll      kkkkkkkkk  cc           
+iiiiiiiiii   nnnnnnnnnnn             llll      kkkkkkkkkk  cc           
+i iiiii  i  nnnnnnnnnnnnn                      kkkkkkkkkk  c            
+iiiii    i nnnnnnnnnnnnn                       kkkkkkkkkk  c            
+iiiii      nnnnnnnnnnnnnn                     kkkkkkkkkkk  c            
+ ii       nnnnnnnnnnnnnnn                     kkkkkkkkkkk               
+ii       nnnnnnnnnnnnnnnnn    ppp  ppppp     kkkkkkkkkkkkk              
+ii       nnnnnnnnnnnnnnnnn    pppppppppp     kkkkkkkkkkkkk              
+i       nnnnnnnnnnnnnnnnnnn    ppppp        kkkkkkkkkkkkkk              
+i      nnnnnnnnnnnnnnnnnnnn      pppp       kkkkkkkkkkkkkk              
+      nnnnnnnnnnnnnnnnnnnnn       pppppp   kkkkkkkkkkkkkkk              
+nn   nnnnnnnnnnnnnnnnnnnnnnn               kkkkkkkkkkkkkkk              
+nn   nnnnnnnnnnnnnnnnnnnnnnn              kkkkkkkkkkkkkkkk              
+nnn nnnnnnnnnnnnnnnnnnnnnnnnn             kkkkkkkkkkkkkkkk              
+ nnnnnnnnnnnnnnnnnnnnnnnnnnnnn            kkkkkkkkkkkkkkkk              
+    nnnnnnnnnnnnnnnnnnnnnnnnnnn          kkkkkkkkkkkkkkkkk              
+  t  nnnnnnnnnnnnnnnnnnnnnnnn             kkkkkkkkkkkkkkkk              
+t tt  nnnnnnnnnnnnnnnnnnnnnn                 kkkkkkkkkkkkk    vvvvv     
+tttt   nnnnnnnnnnnnnnnnnnnnnnn                kkkkkkkkkkkk      vvvvvvv 
+tt     nnnnnnnnnnnnnnnnnnnnnn                   kkkkkkkkkk        vvvvv 
+tt      nnnnnnnnnnnnnnnnnnnnn                    kkkkkkkkk          vvv 
+t      n nnnnnnnnnnnnnnnnnnnn                      kkkkkk               
+tt     nnnnnnnnnnnnnnnnnnnnn                       kkkkkk               
+tt      nnnnnnnnnnnnnnnnnnn                         kkkkk               
+ttt      nnnnnnnnnnnnnnnnnn                          kkkk               
+ttt      nnnnnnnnnnnnnnnnnnn                         kkkk               
+                                                                        
+                                                                        
+                                                                        
+
+0;rgavigan@compute:~/cs3340/asn2[rgavigan@compute asn2]$ exit
+exit
+
+Script done on 2023-02-20 18:26:40-05:00 [COMMAND_EXIT_CODE="0"]
