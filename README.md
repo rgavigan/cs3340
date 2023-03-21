@@ -4,3 +4,6 @@ Generated Fibonacci numbers in O(n) speed using matrix multiplication. Created p
 
 ## Assignment 2: Binary Image Union Find Algorithm
 Generated a union find on connected components in a binary image. Found all connected components and displayed the binary image's connected components in multiple ways based on set ranks. Discovered how many connected components there were and their sizes. Works for any binary images containing 0's and 1's.
+
+## Assignment 3: Dijkstra's Algorithm Using Heap
+Created a Heap data structure in Python with a Node / Edge class that allowed for Dijkstra's algorithm to be ran in O((|V| + |E|)log|V|) time. Found shortest path tree edges with shortest path weights and displayed them.
