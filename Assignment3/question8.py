@@ -249,9 +249,9 @@ def dijkstra(keys, source):
                     heap.decrease_key(v, u.get_distance() + keys[u.get_node()][i][1])
         
     # Print the shortest path
-    print("Shortest Path Tree Edges With Shortest Path Weights:")
+    print("Shortest Path Tree Edges With Shortest Path Weights: [(u,v) : shortest path weight]")
     for i in range(1, len(shortest_path)):
-        print(f"({shortest_path[i - 1].get_node()},{shortest_path[i].get_node()}) : {shortest_path[i].get_distance()}")
+        print(f"    ({shortest_path[i - 1].get_node()},{shortest_path[i].get_node()}) : {shortest_path[i].get_distance()}")
     
 
         
@@ -279,13 +279,28 @@ def main():
         adjacency_list[int(line[0])].append([int(line[1]), int(line[2])]) # source: [destination, weight]
 
     # Print out adjacency list
-    print("Adjacency List Representation of Graph:")
+    print("\nAdjacency List Representation of Graph:")
     for i in range(1, len(adjacency_list)):
-        print("Node:", i, "-> Edges:", end = " ")
+        print(f"    Node: {i:<2} -> Edges:", end = " ")
         for j in range(0, len(adjacency_list[i])):
-            print(f"[Node: {adjacency_list[i][j][0]}, Weight: {adjacency_list[i][j][1]:<2}]", end = " ")
-        print()
+            if j == len(adjacency_list[i]) - 1:
+                print(f"[Node: {adjacency_list[i][j][0]}, Weight: {adjacency_list[i][j][1]}]", end = " ")
+            else:
+                print(f"[Node: {adjacency_list[i][j][0]}, Weight: {adjacency_list[i][j][1]}],", end = " ")
+        print("\n")
     print()
+
+    # Print out a simplified version of the adjacency list to show edges without clutter
+    print("\nSimplified Adjacency List Representation of Graph:")
+    for i in range(1, len(adjacency_list)):
+        print(f"    Node: {i:<2} -> Edges:", end = " ")
+        for j in range(0, len(adjacency_list[i])):
+            if j == len(adjacency_list[i]) - 1:
+                print(f"[{adjacency_list[i][j][0]}, {adjacency_list[i][j][1]}]", end = " ")
+            else:
+                print(f"[{adjacency_list[i][j][0]}, {adjacency_list[i][j][1]}],", end = " ")
+        print()
+    print("\n")
 
     # Run Dijkstra's algorithm
     dijkstra(adjacency_list, 1)

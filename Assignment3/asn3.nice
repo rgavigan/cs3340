@@ -1,0 +1,119 @@
+Script started on 2023-03-23 09:51:49-04:00 [TERM="xterm-256color" TTY="/dev/pts/77" COLUMNS="172" LINES="54"]
+0;rgavigan@compute:~/cs3340/asn3[rgavigan@compute asn3]$ whoami
+rgavigan
+0;rgavigan@compute:~/cs3340/asn3[rgavigan@compute asn3]$ date
+Thu 23 Mar 2023 09:51:57 AM EDT
+0;rgavigan@compute:~/cs3340/asn3[rgavigan@compute asn3]$ pwd
+/home/rgavigan/cs3340/asn3
+0;rgavigan@compute:~/cs3340/asn3[rgavigan@compute asn3]$ ./asn3 < infile
+
+Adjacency List Representation of Graph:
+    Node: 1  -> Edges: [Node: 20, Weight: 63], [Node: 18, Weight: 41], [Node: 9, Weight: 47], [Node: 8, Weight: 20], [Node: 24, Weight: 48], [Node: 19, Weight: 66] 
+
+    Node: 2  -> Edges: [Node: 13, Weight: 39], [Node: 21, Weight: 30], [Node: 3, Weight: 51], [Node: 1, Weight: 73], [Node: 14, Weight: 14], [Node: 16, Weight: 17], [Node: 17, Weight: 19], [Node: 22, Weight: 32], [Node: 12, Weight: 78] 
+
+    Node: 3  -> Edges: [Node: 12, Weight: 47], [Node: 7, Weight: 70], [Node: 11, Weight: 74], [Node: 10, Weight: 46], [Node: 13, Weight: 40], [Node: 17, Weight: 62], [Node: 22, Weight: 57] 
+
+    Node: 4  -> Edges: [Node: 20, Weight: 13], [Node: 1, Weight: 5], [Node: 23, Weight: 68], [Node: 13, Weight: 60], [Node: 14, Weight: 1], [Node: 8, Weight: 70], [Node: 18, Weight: 30], [Node: 25, Weight: 16] 
+
+    Node: 5  -> Edges: [Node: 23, Weight: 8], [Node: 25, Weight: 0], [Node: 8, Weight: 41], [Node: 11, Weight: 76], [Node: 20, Weight: 69], [Node: 6, Weight: 39], [Node: 15, Weight: 23], [Node: 12, Weight: 70], [Node: 21, Weight: 71], [Node: 4, Weight: 19] 
+
+    Node: 6  -> Edges: [Node: 24, Weight: 54], [Node: 9, Weight: 44], [Node: 25, Weight: 73], [Node: 12, Weight: 65], [Node: 5, Weight: 48], [Node: 16, Weight: 73], [Node: 21, Weight: 23], [Node: 10, Weight: 42] 
+
+    Node: 7  -> Edges: [Node: 22, Weight: 39], [Node: 16, Weight: 37], [Node: 9, Weight: 58], [Node: 4, Weight: 58], [Node: 20, Weight: 58], [Node: 14, Weight: 33] 
+
+    Node: 8  -> Edges: [Node: 14, Weight: 57], [Node: 25, Weight: 46], [Node: 17, Weight: 0], [Node: 5, Weight: 54], [Node: 19, Weight: 20], [Node: 6, Weight: 46], [Node: 9, Weight: 18], [Node: 18, Weight: 14], [Node: 20, Weight: 24] 
+
+    Node: 9  -> Edges: [Node: 18, Weight: 11], [Node: 17, Weight: 70], [Node: 14, Weight: 46], [Node: 5, Weight: 8], [Node: 22, Weight: 27], [Node: 16, Weight: 71] 
+
+    Node: 10 -> Edges: [Node: 18, Weight: 69], [Node: 5, Weight: 51], [Node: 23, Weight: 65], [Node: 8, Weight: 26], [Node: 21, Weight: 54], [Node: 9, Weight: 74], [Node: 19, Weight: 29], [Node: 17, Weight: 48], [Node: 7, Weight: 28] 
+
+    Node: 11 -> Edges: [Node: 7, Weight: 32], [Node: 21, Weight: 31], [Node: 10, Weight: 57], [Node: 15, Weight: 44], [Node: 8, Weight: 34], [Node: 1, Weight: 62] 
+
+    Node: 12 -> Edges: [Node: 22, Weight: 39], [Node: 3, Weight: 47], [Node: 13, Weight: 63], [Node: 20, Weight: 55], [Node: 18, Weight: 7], [Node: 6, Weight: 15] 
+
+    Node: 13 -> Edges: [Node: 21, Weight: 57], [Node: 10, Weight: 61], [Node: 6, Weight: 44], [Node: 11, Weight: 35], [Node: 24, Weight: 5] 
+
+    Node: 14 -> Edges: [Node: 22, Weight: 49], [Node: 24, Weight: 39], [Node: 2, Weight: 5], [Node: 4, Weight: 46], [Node: 19, Weight: 53], [Node: 8, Weight: 72] 
+
+    Node: 15 -> Edges: [Node: 17, Weight: 23], [Node: 14, Weight: 47], [Node: 16, Weight: 60], [Node: 5, Weight: 13], [Node: 2, Weight: 44], [Node: 6, Weight: 66], [Node: 7, Weight: 52], [Node: 19, Weight: 4], [Node: 21, Weight: 46] 
+
+    Node: 16 -> Edges: [Node: 21, Weight: 24], [Node: 12, Weight: 11], [Node: 6, Weight: 56], [Node: 14, Weight: 49], [Node: 5, Weight: 38], [Node: 25, Weight: 27], [Node: 2, Weight: 33], [Node: 9, Weight: 55], [Node: 15, Weight: 51] 
+
+    Node: 17 -> Edges: [Node: 11, Weight: 49], [Node: 25, Weight: 51], [Node: 13, Weight: 77], [Node: 8, Weight: 70], [Node: 22, Weight: 14], [Node: 15, Weight: 17], [Node: 23, Weight: 15], [Node: 14, Weight: 73], [Node: 21, Weight: 10], [Node: 2, Weight: 19], [Node: 7, Weight: 42] 
+
+    Node: 18 -> Edges: [Node: 5, Weight: 49], [Node: 21, Weight: 55], [Node: 6, Weight: 37], [Node: 3, Weight: 1], [Node: 17, Weight: 51], [Node: 15, Weight: 0] 
+
+    Node: 19 -> Edges: [Node: 2, Weight: 76], [Node: 12, Weight: 35], [Node: 8, Weight: 59], [Node: 3, Weight: 10], [Node: 4, Weight: 48], [Node: 9, Weight: 59] 
+
+    Node: 20 -> Edges: [Node: 23, Weight: 20], [Node: 8, Weight: 26], [Node: 21, Weight: 12], [Node: 24, Weight: 73], [Node: 6, Weight: 26], [Node: 17, Weight: 29], [Node: 25, Weight: 26], [Node: 13, Weight: 12] 
+
+    Node: 21 -> Edges: [Node: 17, Weight: 2], [Node: 6, Weight: 54], [Node: 9, Weight: 18], [Node: 13, Weight: 26] 
+
+    Node: 22 -> Edges: [Node: 24, Weight: 75], [Node: 11, Weight: 73], [Node: 6, Weight: 63], [Node: 3, Weight: 7], [Node: 19, Weight: 50], [Node: 17, Weight: 32] 
+
+    Node: 23 -> Edges: [Node: 22, Weight: 39], [Node: 9, Weight: 54], [Node: 12, Weight: 13], [Node: 13, Weight: 17], [Node: 20, Weight: 55], [Node: 16, Weight: 66], [Node: 6, Weight: 48], [Node: 4, Weight: 79], [Node: 25, Weight: 14] 
+
+    Node: 24 -> Edges: [Node: 5, Weight: 38], [Node: 22, Weight: 66], [Node: 15, Weight: 52], [Node: 6, Weight: 74], [Node: 12, Weight: 26], [Node: 14, Weight: 6] 
+
+    Node: 25 -> Edges: [Node: 24, Weight: 54], [Node: 2, Weight: 5], [Node: 19, Weight: 72], [Node: 12, Weight: 30], [Node: 17, Weight: 39] 
+
+
+
+Simplified Adjacency List Representation of Graph:
+    Node: 1  -> Edges: [20, 63], [18, 41], [9, 47], [8, 20], [24, 48], [19, 66] 
+    Node: 2  -> Edges: [13, 39], [21, 30], [3, 51], [1, 73], [14, 14], [16, 17], [17, 19], [22, 32], [12, 78] 
+    Node: 3  -> Edges: [12, 47], [7, 70], [11, 74], [10, 46], [13, 40], [17, 62], [22, 57] 
+    Node: 4  -> Edges: [20, 13], [1, 5], [23, 68], [13, 60], [14, 1], [8, 70], [18, 30], [25, 16] 
+    Node: 5  -> Edges: [23, 8], [25, 0], [8, 41], [11, 76], [20, 69], [6, 39], [15, 23], [12, 70], [21, 71], [4, 19] 
+    Node: 6  -> Edges: [24, 54], [9, 44], [25, 73], [12, 65], [5, 48], [16, 73], [21, 23], [10, 42] 
+    Node: 7  -> Edges: [22, 39], [16, 37], [9, 58], [4, 58], [20, 58], [14, 33] 
+    Node: 8  -> Edges: [14, 57], [25, 46], [17, 0], [5, 54], [19, 20], [6, 46], [9, 18], [18, 14], [20, 24] 
+    Node: 9  -> Edges: [18, 11], [17, 70], [14, 46], [5, 8], [22, 27], [16, 71] 
+    Node: 10 -> Edges: [18, 69], [5, 51], [23, 65], [8, 26], [21, 54], [9, 74], [19, 29], [17, 48], [7, 28] 
+    Node: 11 -> Edges: [7, 32], [21, 31], [10, 57], [15, 44], [8, 34], [1, 62] 
+    Node: 12 -> Edges: [22, 39], [3, 47], [13, 63], [20, 55], [18, 7], [6, 15] 
+    Node: 13 -> Edges: [21, 57], [10, 61], [6, 44], [11, 35], [24, 5] 
+    Node: 14 -> Edges: [22, 49], [24, 39], [2, 5], [4, 46], [19, 53], [8, 72] 
+    Node: 15 -> Edges: [17, 23], [14, 47], [16, 60], [5, 13], [2, 44], [6, 66], [7, 52], [19, 4], [21, 46] 
+    Node: 16 -> Edges: [21, 24], [12, 11], [6, 56], [14, 49], [5, 38], [25, 27], [2, 33], [9, 55], [15, 51] 
+    Node: 17 -> Edges: [11, 49], [25, 51], [13, 77], [8, 70], [22, 14], [15, 17], [23, 15], [14, 73], [21, 10], [2, 19], [7, 42] 
+    Node: 18 -> Edges: [5, 49], [21, 55], [6, 37], [3, 1], [17, 51], [15, 0] 
+    Node: 19 -> Edges: [2, 76], [12, 35], [8, 59], [3, 10], [4, 48], [9, 59] 
+    Node: 20 -> Edges: [23, 20], [8, 26], [21, 12], [24, 73], [6, 26], [17, 29], [25, 26], [13, 12] 
+    Node: 21 -> Edges: [17, 2], [6, 54], [9, 18], [13, 26] 
+    Node: 22 -> Edges: [24, 75], [11, 73], [6, 63], [3, 7], [19, 50], [17, 32] 
+    Node: 23 -> Edges: [22, 39], [9, 54], [12, 13], [13, 17], [20, 55], [16, 66], [6, 48], [4, 79], [25, 14] 
+    Node: 24 -> Edges: [5, 38], [22, 66], [15, 52], [6, 74], [12, 26], [14, 6] 
+    Node: 25 -> Edges: [24, 54], [2, 5], [19, 72], [12, 30], [17, 39] 
+
+
+Shortest Path Tree Edges With Shortest Path Weights: [(u,v) : shortest path weight]
+    (1,8) : 20
+    (8,17) : 20
+    (17,21) : 30
+    (21,22) : 34
+    (22,18) : 34
+    (18,15) : 34
+    (15,3) : 35
+    (3,23) : 35
+    (23,19) : 38
+    (19,9) : 38
+    (9,2) : 39
+    (2,20) : 44
+    (20,5) : 46
+    (5,25) : 46
+    (25,24) : 48
+    (24,12) : 48
+    (12,13) : 52
+    (13,14) : 53
+    (14,16) : 56
+    (16,7) : 62
+    (7,6) : 63
+    (6,4) : 65
+    (4,11) : 69
+    (11,10) : 81
+0;rgavigan@compute:~/cs3340/asn3[rgavigan@compute asn3]$ exit
+exit
+
+Script done on 2023-03-23 09:52:11-04:00 [COMMAND_EXIT_CODE="0"]
